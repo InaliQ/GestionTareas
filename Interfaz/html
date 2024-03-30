@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Registro de Tareas</h1>
+    <form id="tareaForm">
+        <label for="nombreActividad">Nombre de la actividad:</label><br>
+        <input type="text" id="nombreActividad" name="nombreActividad"><br><br>
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion"></textarea><br><br>
+        <label for="estatus">Estatus:</label><br>
+        <input type="text" id="estatus" name="estatus"><br><br>
+        <button type="submit">Guardar Tarea</button>
+    </form>
+
+    <h2>Tareas Existente</h2>
+    <div id="tareasList"></div>
+    <script src="scrip.js"></script>
+</body>
+</html>
